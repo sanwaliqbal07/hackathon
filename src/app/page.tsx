@@ -1,14 +1,18 @@
 import React from 'react'
-import Hero from '@/components/hero'
-import Header from '@/components/header'
-import Footer from '@/components/footer'
-import CarRental from '@/components/carrental'
+import Hero from '@/components/Homepage/hero'
+import Header from '@/components/Homepage/header'
+import Footer from '@/components/Homepage/footer'
+import PopularCars from '@/components/Homepage/cards'
+import RecommendedCars from '@/components/Homepage/cards2'
+import RecCars from '@/components/Homepage/cards3'
 const page = () => {
   return (
-    <div>
+    <div className='bg-gray-50'>
       <Header/>
       <Hero/>
-      <CarRental/>
+      <PopularCars/>
+      <RecommendedCars/>
+      <RecCars/>
       <Footer/>
     </div>
   )

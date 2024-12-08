@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { HiArrowsUpDown } from "react-icons/hi2";
 import { FaCircleDot } from "react-icons/fa6";
 
@@ -25,11 +26,13 @@ const Hero = () => {
             <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
               Rental Car
             </button>
-            <img
-              src="/images/hero1.png" // Replace with your car image URL
-              alt="Car"
-              className="mt-4 w-[340px] h-[108px] ml-40 object-cover"
-            />
+            <Image
+  src="/koen.png" // Leading slash is required
+  alt="Car"
+  width={340}
+  height={108}
+  className="mt-4 ml-40 object-cover"
+/>
           </div>
 
           {/* Right Card */}
@@ -50,11 +53,13 @@ const Hero = () => {
             <button className="bg-[#54A6FF] text-white px-6 py-2 rounded-lg hover:bg-blue-700">
               Rental Car
             </button>
-            <img
-              src="/images/hero2.png" // Replace with your car image URL
-              alt="Car"
-              className="mt-4 w-[340px] h-[108px] ml-40 object-cover"
-            />
+            <Image
+  src="/nisaan.png" // Leading slash is required
+  alt="Car"
+  width={340}
+  height={108}
+  className="mt-4 ml-40 object-cover"
+/>
           </div>
         </div>
 
