@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { FaHeart, FaUser, FaCarSide, FaCogs } from "react-icons/fa";
+import { FaHeart} from "react-icons/fa";
 
 export default function PopularCars() {
   const cars = [
