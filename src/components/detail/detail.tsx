@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import { FaStar, FaHeart } from "react-icons/fa";
 
@@ -81,9 +82,9 @@ const CarDetailsSection = () => {
             <p className="text-lg font-bold">$80.00</p>
             <p className="text-sm text-gray-500 line-through">$100.00</p>
           </div>
-          <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition">
+          <Link href="/payment"><button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition">
             Rent Now
-          </button>
+          </button></Link>
         </div>
       </div>
     </div>
