@@ -6,7 +6,7 @@ const BookingSection = () => {
   return (
     <div>
       {/* Booking Section */}
-      <div className="flex flex-col md:flex-row items-center gap-4 mt-8 bg-white p-6 rounded-lg shadow-md">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 mt-8 bg-white p-6 rounded-lg shadow-md">
         {/* Pick-Up Section */}
         <div className="flex-1">
           <h3 className="text-lg font-medium mb-2 flex items-center">

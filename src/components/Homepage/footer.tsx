@@ -2,22 +2,22 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white border-t border-gray-200 ">
-      <div>
+    <footer className="bg-white border-t border-gray-200">
+      <div className="container mx-auto px-4 py-8">
         {/* Top Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Vision */}
-          <div className="pl-8 ml-8 mr-10">
+          <div className="space-y-4">
             <h1 className="text-2xl font-bold text-blue-500">MORENT</h1>
-            <p className="text-sm text-gray-600 mt-2">
+            <p className="text-sm text-gray-600">
               Our vision is to provide convenience and help increase your sales business.
             </p>
           </div>
 
           {/* About Section */}
-          <div className="ml-56">
+          <div className="space-y-2">
             <h2 className="text-lg font-semibold text-gray-800">About</h2>
-            <ul className="mt-2">
+            <ul className="space-y-1">
               <li>
                 <a href="#" className="text-sm text-gray-600 hover:text-blue-500">
                   How it works
@@ -42,9 +42,9 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Community Section */}
-          <div className="ml-14">
+          <div className="space-y-2">
             <h2 className="text-lg font-semibold text-gray-800">Community</h2>
-            <ul className="mt-2 space-y-1">
+            <ul className="space-y-1">
               <li>
                 <a href="#" className="text-sm text-gray-600 hover:text-blue-500">
                   Events
@@ -69,9 +69,9 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Socials Section */}
-          <div>
+          <div className="space-y-2">
             <h2 className="text-lg font-semibold text-gray-800">Socials</h2>
-            <ul className="mt-2 space-y-1">
+            <ul className="space-y-1">
               <li>
                 <a href="#" className="text-sm text-gray-600 hover:text-blue-500">
                   Discord

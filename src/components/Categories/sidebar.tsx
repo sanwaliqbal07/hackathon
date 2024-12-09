@@ -5,7 +5,7 @@ export default function Sidebar() {
   const [price, setPrice] = useState(100);
 
   return (
-    <div className="w-72 bg-white p-6 border-r shadow-md flex flex-col overflow-y-auto">
+    <div className="w-full md:w-72 bg-white p-6 border-r shadow-md flex flex-col overflow-y-auto">
       <div className="mb-6">
         <h3 className="text-lg font-bold mb-4">Type</h3>
         {["Sport", "SUV", "MPV", "Sedan"].map((type) => (

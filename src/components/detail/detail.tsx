@@ -13,33 +13,32 @@ const CarDetailsSection = () => {
             src="/l.png"
             alt="Car"
             className="w-full h-64 object-cover"
-            width="900"
-            height="900"
+            width={900}
+            height={900}
           />
-          
         </div>
         {/* Thumbnail Gallery */}
-        <div className="flex gap-4 mt-4">
+        <div className="flex gap-4 mt-4 overflow-x-auto lg:overflow-visible">
           <Image
             src="/m.png"
             alt="Car Interior"
             className="w-20 h-20 rounded-lg object-cover border border-gray-200"
-            width="900"
-            height="900"
+            width={900}
+            height={900}
           />
           <Image
             src="/n.png"
             alt="Car Seats"
             className="w-20 h-20 rounded-lg object-cover border border-gray-200"
-            width="900"
-            height="900"
+            width={900}
+            height={900}
           />
           <img
             src="/o.png"
             alt="Car Dashboard"
             className="w-20 h-20 rounded-lg object-cover border border-gray-200"
-            width="900"
-            height="900"
+            width={900}
+            height={900}
           />
         </div>
       </div>
@@ -82,9 +81,11 @@ const CarDetailsSection = () => {
             <p className="text-lg font-bold">$80.00</p>
             <p className="text-sm text-gray-500 line-through">$100.00</p>
           </div>
-          <Link href="/payment"><button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition">
-            Rent Now
-          </button></Link>
+          <Link href="/payment">
+            <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition">
+              Rent Now
+            </button>
+          </Link>
         </div>
       </div>
     </div>
