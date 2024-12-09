@@ -10,8 +10,8 @@ const Header = () => {
       {/* Logo and Search Bar Container */}
       <div className="flex items-center space-x-4 lg:space-x-20 w-full lg:w-auto">
         {/* Logo */}
-        <div className="text-xl md:text-2xl font-bold text-blue-600">MORENT</div>
-        
+        <Link href="/"><button className="text-xl md:text-2xl font-bold text-blue-600 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded-md transition"
+  >MORENT</button></Link>
         {/* Search Bar */}
         <div className="relative w-full lg:w-[492px] h-[44px] mt-2 lg:mt-0">
           <input

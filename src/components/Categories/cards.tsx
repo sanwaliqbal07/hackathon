@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Image from "next/image";
 import { FaHeart} from "react-icons/fa";
 
@@ -42,7 +43,7 @@ export default function PopularCars() {
           <Image src={car.image} alt={car.name} width={200} height={100} className="mx-auto object-contain" />
           <div className="flex justify-between items-center mt-4">
             <p className="text-lg font-semibold">{car.price}</p>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">Rent Now</button>
+           <Link href="/detailcars"> <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">Rent Now</button></Link>
           </div>
         </div>
       ))}
